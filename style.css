@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    font-family: Raleway, sans-serif;
+  }
+  
+  #navbar{
+    position:fixed;
+    width:100%;
+    margin:0;
+    top:0;
+  }
+  
+  #nav-list{
+    list-style:none;
+    background-color: #333;
+    margin-top:0px;
+    padding:16px;
+    margin-bottom:0px;
+  }
+  
+  .lista{
+    display:inline;
+    margin-right:20px;
+    margin-left:15px;
+  }
+  
+  .links{
+    text-decoration:none;
+    color:white;
+  }
+  
+  .links:hover{
+    background-color:white;
+    color:black;
+    padding:1rem;
+    top:0;
+  }
+  
+  #welcome-section{
+    background-color:#4d1f7a;
+    height:100vh;
+    text-align:center;
+    background-image: linear-gradient(70deg, #a671da 0%, #331551 100%);
+  }
+  
+  #name{
+    padding-top:150px;
+    font-size:35px;
+  }
+  
+  #reason{
+    font-size:20px;
+    padding-top:0;
+  }
+  
+  
+  #projects{
+    background-color: #333;
+    padding-top:5px;
+    padding-bottom:350px;
+    background-image: linear-gradient(60deg, #bfbfbf 1%, #1a1a1a 60%)
+  }
+  
+  #entry{
+   text-align:center;
+   font-size:35px;
+   text-decoration:underline;
+   color:white;
+  }
+  
+  .project-tile{
+    display:inline-block;
+    margin:35px;
+    text-decoration:none;
+    color:black;
+    background-color:#6d36c9;
+    text-align:center;
+    border-radius:25px;
+  }
+  
+  .project-tile:hover{
+    background-color:black;
+    color:#6d36c9;
+    box-shadow:0 0 10px;
+  }
+  
+  #contacts{
+    background-color:#6d36c9;
+    padding-top:5px;
+    padding-bottom:10px;
+  }
+  
+  
+  
+  #profile-link{
+    text-decoration:none;
+    color:#6d36c9;
+    background-color:black;
+    border-radius:25px;
+    padding:5px;
+  }
+  
+  #profile-link:hover{
+    background-color:white;
+    color:black;
+  }
+  
+  .contacts{
+    list-style:none;
+    display:inline;
+    padding:20px;
+  }
+  
+  
+  
+  @media screen and (max-width:480px){
+    #welcome-section{
+      width:100%;
+    }
+  }
+  
+  @media screen and (max-width:480px){
+    #project-section{
+      width:100%;
+    }
+  }
+  
+  @media screen and (max-width:480px){
+    #contacts{
+      width:100%;
+    }
+  }
+  
+  @media screen and (max-width:480px){
+    .project-tile{
+      width:50px;
+      height:50px;
+    }
+  }
