@@ -38,18 +38,18 @@ body{
   
   #welcome-section{
     background-color:#4d1f7a;
-    height:100vh;
+    height:70vh;
     text-align:center;
     background-image: linear-gradient(70deg, #a671da 0%, #331551 100%);
   }
   
   #name{
-    padding-top:150px;
-    font-size:35px;
+    padding-top: 20vh;
+    font-size: 3em;
   }
   
   #reason{
-    font-size:20px;
+    font-size:2em;
     padding-top:0;
   }
   
@@ -59,6 +59,11 @@ body{
     padding-top:5px;
     padding-bottom:350px;
     background-image: linear-gradient(60deg, #bfbfbf 1%, #1a1a1a 60%)
+  }
+
+  .images{
+    width: 25vw;
+    height: 25vh;
   }
   
   #entry{
